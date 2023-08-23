@@ -34,9 +34,7 @@ In this project, I'm going to build a rails API app using rails as backend only.
 ## 🛠 Built With <a name="built-with"></a>
 
 - Ruby and rails
-- React
-- Redux
-- Webpack
+- postgresql
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -68,7 +66,6 @@ In this project, I'm going to build a rails API app using rails as backend only.
 ### Key Features <a name="key-features"></a>
 
 - Generate greetings
-- Display greetings
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
@@ -83,7 +80,6 @@ To run the project locally, follow these steps.
 In order to run this project you need to:
 
 - Install [Git](https://git-scm.com/)
-- Install [Node](https://nodejs.org/en/)
 - Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
 - Install Ruby
 - Install rails by using commands below
@@ -97,22 +93,32 @@ gem install rails
 Clone the repo into your local machine:
 
 ```bash
-git clone https://github.com/osmanwako/hello_rails_react.git
+git clone https://github.com/osmanwako/hellorails_backend.git
 ```
 
-Create the database by using a command
+Create the database and generate greeting message by using a command
 
 ```bash
 rails db:create
 ```
 
-### Usage
-
-To run the program use command, bin/dev
+Clone the front-end repo into your local machine:
 
 ```bash
-bin/dev
+git clone https://github.com/osmanwako/helloreact_frontend.git
 ```
+
+### Usage
+
+To run the program use command
+
+```bash
+rails s
+```
+
+hint: \*\*Back end should have to run at 3000 port numbers or you need to change your front end url
+
+To use the [front-end of this project](https://github.com/osmanwako/helloreact_frontend/pull/1)
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
